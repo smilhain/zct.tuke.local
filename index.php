@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("viibes_zct", "viibes_zct", "#R~vDj3b77", "viibes_zct");
+$db = mysqli_connect("viibes.mysql.tools", "viibes_zct", "#R~vDj3b77", "viibes_zct");
 
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
